@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
                         throw new RuntimeException(e);
                     }
                     try {
-                        Thread.sleep(3000);
+                        Thread.sleep(3000); //设置睡觉时间
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
